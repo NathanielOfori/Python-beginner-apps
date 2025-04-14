@@ -11,7 +11,7 @@ def reverse_string():
 
         # To quit the app
         if noct_input.lower()== "quit":
-            print("Goodbye.")
+            print("Exiting the App. Goodbye.")
             break
 
 
