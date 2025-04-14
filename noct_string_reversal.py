@@ -1,11 +1,19 @@
 # Define the reverse_string function
 def reverse_string():
 
-    # display App Name
-    print('String Reversal App')
+
     while True:
+        # display App Name
+        print('String Reversal App')
+
         # Taking user input
-        noct_input = input("Enter a word: ")
+        noct_input = input("Enter a word (or type 'quit' to exit): ")
+
+        # To quit the app
+        if noct_input.lower()== "quit":
+            print("Goodbye.")
+            break
+
 
         # Checking and making sure user input is strictly just letters and spaces
         if not noct_input.replace(" ", "").isalpha():
@@ -20,7 +28,6 @@ def reverse_string():
         # If all conditions are met, then reverse user input and print.
         reverse_noct_input = noct_input[::-1]
         print(f"Your reversed input is {reverse_noct_input}")
-        break
 
 # run reverse_string function
 reverse_string()
