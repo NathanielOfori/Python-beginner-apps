@@ -7,7 +7,7 @@ def convert_temperature():
         noct_user_input = input("Enter a temperature value (or type \"quit\" to exit): ").strip()
 
         # Handling keyword 'quit' to exit the app
-        if noct_user_input == "quit":
+        if noct_user_input.lower() == "quit":
             print("Exiting the App. Goodbye.")
             break
 
