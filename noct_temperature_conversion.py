@@ -36,5 +36,11 @@ def convert_temperature():
             new_temperature = (temperature-32)*5/9
             print(f"Temperature {noct_user_input}°F = {new_temperature}°C")
 
+        # checking if user wants to continue using the convertor, if not app quits
+        again = input("would you like to convert anymore temperatures? (yes/no): ").lower()
+        if again != "yes":
+            print("Goodbye. See you later :).")
+            break
+
 # Run the function convert_temperature
 convert_temperature()
