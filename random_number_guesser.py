@@ -5,7 +5,7 @@ import random
 def random_number_guesser():
 
     # generating the secret number
-    noct_secret_number = random.randint(1,100)
+    noct_secret_number = random.randint(1,20)
 
     # number of guesses allowed
     guess = 5
@@ -22,8 +22,8 @@ def random_number_guesser():
         try:
             user_guess = int(input("Guess the secret number (1-100): "))
 
-            if user_guess < 1 or user_guess > 100:
-                print("Guess a number between 1 and 100")
+            if user_guess < 1 or user_guess > 20:
+                print("Guess a number between 1 and 20")
                 continue
 
             if user_guess > noct_secret_number:
