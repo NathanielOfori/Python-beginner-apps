@@ -1,14 +1,20 @@
+#defining function
 def email_validates(email):
+
+    # checking and making sure there is exactly 1 @
     if email.count("@") != 1:
         return False
 
+    #splitting the email into 2 separate parts ie. username and domain
     username,domain = email.split("@")
 
+    # checking that neither parts are empty
     if len(username)==0:
         return False
     if len(domain)==0:
         return False
 
+    # ensuring the domain has a "."
     if '.' not in domain:
         return False
 
