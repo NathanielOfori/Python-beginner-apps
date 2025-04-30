@@ -12,7 +12,7 @@ def fibonacci_sequence(terms):
 
     for _ in range(terms):
         sequence.append(a)
-        a, b = b, a+b
+        a,b = b, a+b
 
     print(f"The fibonacci sequence with {terms} terms: ")
     print(sequence)
