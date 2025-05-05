@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15386383-3f0c-4ba8-8aa2-dac33f0e0709" name="Changes" comment="new python project : random number generator and taking input of users guessing the number." />
+    <list default="true" id="15386383-3f0c-4ba8-8aa2-dac33f0e0709" name="Changes" comment="Word counter in a txt file that counts words in ascending order (A-Z).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +47,12 @@
   "keyToString": {
     "Python.basic_calculator.executor": "Run",
     "Python.email_validator.executor": "Run",
+    "Python.fibonnaci_sequencer.executor": "Run",
+    "Python.file_word_counter.executor": "Run",
     "Python.noct_string_reversal.executor": "Run",
     "Python.noct_temperature_conversion.executor": "Run",
     "Python.palindromechecker.executor": "Run",
+    "Python.password_strength_checker.executor": "Run",
     "Python.random_number_guesser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -151,7 +156,63 @@
       <option name="project" value="LOCAL" />
       <updated>1745491346710</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new python project : game for random number generator range(1,100) and taking input of users guessing the number.">
+      <option name="closed" value="true" />
+      <created>1745493217421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745493217422</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update for random_number_guesser.py">
+      <option name="closed" value="true" />
+      <created>1745493238729</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745493238730</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <option name="closed" value="true" />
+      <created>1745493248790</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745493248790</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fibonacci sequencer project based on user defined terms">
+      <option name="closed" value="true" />
+      <created>1746026946243</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746026946243</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fibonacci sequencer project based on user defined terms">
+      <option name="closed" value="true" />
+      <created>1746027004613</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746027004613</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Word counter in a txt file that counts words in ascending order (A-Z).">
+      <option name="closed" value="true" />
+      <created>1746449707142</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746449707142</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Word counter in a txt file that counts words in ascending order (A-Z).">
+      <option name="closed" value="true" />
+      <created>1746449934811</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746449934811</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,11 +227,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="email validator app" />
     <MESSAGE value="new changes to email_validator.py" />
     <MESSAGE value="new python project : palindrome checker" />
     <MESSAGE value="new python project : random number generator and taking input of users guessing the number." />
-    <option name="LAST_COMMIT_MESSAGE" value="new python project : random number generator and taking input of users guessing the number." />
+    <MESSAGE value="new python project : game for random number generator range(1,100) and taking input of users guessing the number." />
+    <MESSAGE value="update for random_number_guesser.py" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Fibonacci sequencer project based on user defined terms" />
+    <MESSAGE value="Word counter in a txt file that counts words in ascending order (A-Z)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Word counter in a txt file that counts words in ascending order (A-Z)." />
   </component>
 </project>
